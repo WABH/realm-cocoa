@@ -3,6 +3,8 @@
 import PackageDescription
 import Foundation
 
+puts("\(ProcessInfo.processInfo.environment)")
+
 let coreVersionStr = "6.0.19"
 let cocoaVersionStr = "5.3.5"
 
